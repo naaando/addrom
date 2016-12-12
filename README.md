@@ -1,7 +1,10 @@
+# A mirror of <http://git.fifth.space/addrom/>
+
+## This isn't my work, I'm just redistributing due to instabilities on original server, since it's allowed by MIT License
+
 Last-Modified: Mon, 12 Dec 2016 01:13:15 GMT
 Expires: Mon, 12 Dec 2016 01:18:15 GMT
 
-<!DOCTYPE html>
 <html lang='en'>
 <head>
 <title>README.md - addrom - Tool for adding a rom to a PB3 list.dat</title>
@@ -104,20 +107,20 @@ output file.
 
 Works only for Pandora's Box 3 520+20/540 in 1 (jamma).
 
-Installation
-------------
+## Installation
+
 Edit config.mk for customizing compilation options and installation paths.
 
         make            (building)
         make install    (install, may need privileges, default in /usr/local)
         make clean      (cleaning)
 
-Usage
------
+## Usage
+
 Read the manual page.
 
-File format
------------
+## File format
+
 The file is composed of a header and a concatenation of rom entries
 with the following fields:
 
@@ -139,8 +142,8 @@ You can reverse the calculation with this:
 
         Decimal number of games = (field * 0x88888889) &gt;&gt; 32 &gt;&gt; 6
 
-Thanks
-------
+## Thanks
+
 To Meng Xipeng &lt;mengxipeng@gmail.com&gt; for the instructions about the list.dat
 file format.
 
