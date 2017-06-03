@@ -1,9 +1,8 @@
-# A mirror of <http://git.fifth.space/addrom/>
+# addrom
 
-## This isn't my work, I'm just redistributing due to instabilities on original server, since it's allowed by MIT License
+*A mirror of <http://git.fifth.space/addrom/>*
 
-addrom
-======
+*I don't maintain this code, neither provide support, it's here just for redistributing purposes, as allowed by MIT License*
 
 Simple tool to add a rom entry to a PB3 list.dat.
 
